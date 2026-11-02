@@ -1,12 +1,24 @@
 ---
-permalink: "/"
-title: "À propos"
-layout: "single"
+permalink: /
+title: "À propos / About"
+layout: single
 author_profile: true
 ---
 
-Je suis doctorante en santé publique et science des données (ED 393, Université Paris Cité) et ingénieure de recherche à l’Institut Imagine, dans l’équipe de bioinformatique clinique. Ma thèse porte sur [sujet de thèse en une phrase] : j’utilise le traitement automatique du langage (NLP) pour extraire des données de vie réelle des réseaux sociaux et des forums de patients, en particulier pour les maladies rares comme les encéphalopathies épileptiques et développementales liées au gène KCNB1, en lien avec l’association KCNB1 France.
+[English version below](#english)
 
-Je suis chargée de TD en mathématiques à l’Université Paris 1 Panthéon-Sorbonne depuis 2022. Ma soutenance est prévue en [mois année].
+## Français
 
-Je cherche à partir de [date] un poste de [postdoc / ingénieure de recherche] autour de [thèmes]. Vous pouvez m’écrire à [email].
+Mes trois activités professionnelles en tant qu'AHU (Assistante Hospitalo Universitaire) : l’activité hospitalière au service d’informatique hospitalière et de santé publique de l’Hôpital Européen Georges-Pompidou (HEGP, AP-HP), l’enseignement à l’Université Paris Cité, et la recherche au laboratoire de bioinformatique clinique de l’Institut Imagine (INSERM UMR 1163).
+
+Ma thèse en santé publique et science des données (ED 393, Université Paris Cité) s'intitule : "From social media narratives to experiential
+knowledge: a NLP approach to analyzing family narratives in KCNB1-related developmental and epileptic encephalopathy". Elle sera soutenue le 15 novembre 2026. 
+
+
+## English
+
+I am a Hospital-University Assistant Professor and my three professional activities are clinical work in the Department of Hospital Informatics and Public Health at Hôpital Européen Georges-Pompidou (HEGP, AP-HP), teaching at Université Paris Cité, and research in the Clinical Bioinformatics Laboratory at Institut Imagine (INSERM UMR 1163).
+
+My PhD in public health and data science (Doctoral School ED 393, Université Paris Cité) is entitled "From social media narratives to experiential knowledge: a NLP approach to analyzing family narratives in KCNB1-related developmental and epileptic encephalopathy". I will defend it on 15 November 2026.
+
+[Version française](#francais)
