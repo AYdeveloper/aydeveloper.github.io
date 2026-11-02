@@ -4,7 +4,7 @@ collection: "teaching"
 type: "Travaux dirigés"
 permalink: "/teaching/probabilites"
 venue: "Université Paris 1 Panthéon-Sorbonne"
-date: 2022-09-01
+date: 2023-2026
 location: "Paris, France"
 ---
 
