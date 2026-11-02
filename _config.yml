@@ -24,12 +24,12 @@ repository               : "emmalepriol/emmalepriol.github.io"
 author:
   # Biographic information
   avatar           : "1748611529967.jpeg"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  name             : "Emma Le Priol"
+  pronouns         : "elle/she/her"  
+  bio              : "Informatique hospitalière et santé publique, Hôpital Européen Georges Pompidou, Université Paris Cité, INSERM UMR 1163 Institut Imagine"
   location         : "Paris, France"
-  employer         : "Informatique hospitalière et santé publique, Hôpital Européen Georges Pompidou, Université Paris Cité, INSERM UMR 1163 Institut Imagine"
-  uri              : # URL
+  #employer         : ""
+  #uri              : # URL
   email            : "emma.le-priol@u-pariscite.fr" 
 
   # Academic websites
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "emmalepriol"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  #bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
