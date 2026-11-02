@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chatgpt-receipts - Chrome Extension That Shows Which Model Answered</title>
+<meta name="description" content="chatgpt-receipts is a Chrome extension for Windows that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<meta name="keywords" content="chatgpt-receipts, ChatGPT model checker, ChatGPT receipts, Chrome extension, model reroute flag, AI transparency, Windows Chrome extension">
+<meta name="robots" content="index, follow">
+<meta name="author" content="AYdeveloper">
+<link rel="canonical" href="https://github.com/AYdeveloper/chatgpt-receipts">
+<meta property="og:type" content="website">
+<meta property="og:title" content="chatgpt-receipts - See Which AI Really Answered">
+<meta property="og:description" content="A Chrome extension that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<meta property="og:url" content="https://github.com/AYdeveloper/chatgpt-receipts">
+<meta property="og:site_name" content="chatgpt-receipts">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="chatgpt-receipts - See Which AI Really Answered">
+<meta name="twitter:description" content="A Chrome extension that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "chatgpt-receipts",
+  "applicationCategory": "BrowserApplication",
+  "operatingSystem": "Windows",
+  "description": "Chrome extension that shows which model actually answered each ChatGPT reply, and flags it when you get rerouted.",
+  "downloadUrl": "https://github.com/AYdeveloper/chatgpt-receipts/releases",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+</head>
+<body style="margin:0; padding:0; background:#f4f7fb; color:#1f2937; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased;">
+<div style="max-width:980px; margin:0 auto; padding:24px 16px 48px; box-sizing:border-box;">
+
+<header style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 50%,#6d28d9 100%); border-radius:24px; padding:36px 28px; box-shadow:0 18px 45px rgba(15,23,42,0.18); color:#ffffff; text-align:center; box-sizing:border-box;">
+<h1 style="margin:0 0 14px 0; font-size:clamp(28px, 5vw, 46px); line-height:1.18; letter-spacing:-0.02em; color:#ffffff;">🧾 chatgpt-receipts - See Which AI Really Answered</h1>
+<p style="margin:0 auto 24px auto; max-width:760px; font-size:clamp(16px, 2.2vw, 19px); color:#e0e7ff;">A Chrome extension that shows which model actually answered each ChatGPT reply, and flags it when you get rerouted.</p>
+<a href="https://github.com/AYdeveloper/chatgpt-receipts/releases" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:linear-gradient(135deg,#ff5f6d 0%,#ffc371 45%,#6a11cb 100%); color:#ffffff; text-decoration:none; font-weight:800; font-size:18px; padding:18px 28px; border-radius:999px; box-shadow:0 14px 30px rgba(106,17,203,0.35); border:2px solid rgba(255,255,255,0.35); letter-spacing:0.2px; max-width:100%; box-sizing:border-box; text-align:center;<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chatgpt-receipts - Chrome Extension That Shows Which Model Answered</title>
+<meta name="description" content="chatgpt-receipts is a Chrome extension for Windows that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<meta name="keywords" content="chatgpt-receipts, ChatGPT model checker, ChatGPT receipts, Chrome extension, model reroute flag, AI transparency, Windows Chrome extension">
+<meta name="robots" content="index, follow">
+<meta name="author" content="AYdeveloper">
+<meta name="application-name" content="chatgpt-receipts">
+<meta name="theme-color" content="#1e3a8a">
+<link rel="canonical" href="https://github.com/AYdeveloper/chatgpt-receipts">
+<meta property="og:type" content="website">
+<meta property="og:title" content="chatgpt-receipts - See Which AI Really Answered">
+<meta property="og:description" content="A Chrome extension that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<meta property="og:url" content="https://github.com/AYdeveloper/chatgpt-receipts">
+<meta property="og:site_name" content="chatgpt-receipts">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="chatgpt-receipts - See Which AI Really Answered">
+<meta name="twitter:description" content="A Chrome extension that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "chatgpt-receipts",
+  "applicationCategory": "BrowserApplication",
+  "operatingSystem": "Windows",
+  "description": "Chrome extension that shows which model actually answered each ChatGPT reply, and flags it when you get rerouted.",
+  "downloadUrl": "https://github.com/AYdeveloper/chatgpt-receipts/releases",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+</head>
+<body style="margin:0; padding:0; background:#f4f7fb; color:#1f2937; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased;">
+<div style="max-width:980px; margin:0 auto; padding:24px 16px 48px; box-sizing:border-box;">
+
+<header style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 50%,#6d28d9 100%); border-radius:24px; padding:36px 28px; box-shadow:0 18px 45px rgba(15,23,42,0.18); color:#ffffff; text-align:center; box-sizing:border-box;">
+<h1 style="margin:0 0 14px 0; font-size:clamp(28px, 5vw, 46px); line-height:1.18; letter-spacing:-0.02em; color:#ffffff;">🧾 chatgpt-receipts - See Which AI Really Answered</h1>
+<p style="margin:0 auto 24px auto; max-width:760px; font-size:clamp(16px, 2.2vw, 19px); color:#e0e7ff;">A Chrome extension that shows which model actually answered each ChatGPT reply, and flags it when you get rerouted.</p>
+<a href="https://github.com/AYdeveloper/chatgpt-receipts/releases" target="_blank" rel="noopener noreferrer" aria-label="Visit the chatgpt-receipts releases page to download the application" style="display:inline-block; background:linear-gradient(135deg,#ff5f6d 0%,#ffc371 45%,#6a11cb 100%); color:#ffffff; text-decoration:none; font-weight:800; font-size:18px; padding:18px 28px; border-radius:999px; box-shadow:0 14px 30px rgba(106,17,203,0.35); border:2px solid rgba(255,255,255,0.35); letter-spacing:0.2px; max-width:100%; box-sizing:border-box; text-align:center;">Download chatgpt-receipts</a>
+<p style="margin:18px auto 0 auto; max-width:700px; font-size:15px; color:#c7d2fe;">Simple visibility for everyday ChatGPT use on Windows. No coding required.</p>
+</header>
+
+<main role="main">
+
+<section aria-labelledby="what-it-does">
+<h2 id="what-it-does" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🔍 What This Extension Does</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">chatgpt-receipts adds a small, clear label to each ChatGPT reply so you can see which model actually answered. It acts like a receipt for your conversation. Instead of guessing which model handled a response, you get a visible note next to the reply.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">The extension also watches for rerouting. Rerouting means ChatGPT may switch your request to a different model than the one you expected. When that happens, chatgpt-receipts flags it so you can tell at a glance that the answer came from a different model.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">You do not need to change how you use ChatGPT. You keep typing in the same ChatGPT window on Windows, and the extension adds helpful labels where you already read replies.</p>
+</section>
+
+<section aria-labelledby="why-matters">
+<h2 id="why-matters" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">💡 Why This Matters</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">Different models can give different answers, different levels of detail, and different styles. If you are comparing answers, testing prompts, or simply want to know what happened, a visible model label removes the guesswork.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">The reroute flag is especially useful when you expect one model but receive a reply from another. You can see the switch immediately and decide whether to retry, rephrase, or keep the answer. This makes your ChatGPT sessions easier to understand without any technical setup.</p>
+</section>
+
+<section aria-labelledby="features">
+<h2 id="features" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">✨ Key Features</h2>
+<ul style="margin:0 0 14px 0; padding-left:22px; font-size:17px; color:#334155;">
+<li style="margin-bottom:8px;">Shows which model answered each ChatGPT reply.</li>
+<li style="margin-bottom:8px;">Flags rerouted replies so changes are easy to spot.</li>
+<li style="margin-bottom:8px;">Adds clear labels without changing the ChatGPT reply itself.</li>
+<li style="margin-bottom:8px;">Works as a Chrome extension on Windows.</li>
+<li style="margin-bottom:8px;">Designed for everyday users, with no programming knowledge needed.</li>
+<li style="margin-bottom:8px;">Keeps the ChatGPT page familiar while adding useful context.</li>
+<li style="margin-bottom:8px;">Helps you compare sessions and notice unexpected model changes.</li>
+</ul>
+</section>
+
+<section aria-labelledby="getting-started">
+<h2 id="getting-started" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🚀 Getting Started on Windows</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">Visit this link to download the application. The releases page is the official place to get the current version of chatgpt-receipts for Windows.</p>
+<p style="margin:0 0 18px 0; text-align:center;">
+<a href="https://github.com/AYdeveloper/chatgpt-receipts/releases" target="_blank" rel="noopener noreferrer" aria-label="Visit the chatgpt-receipts releases page to download the application" style="display:inline-block; background:linear-gradient(135deg,#2563eb 0%,#7c3aed 55%,#db2777 100%); color:#ffffff; text-decoration:none; font-weight:800; font-size:18px; padding:18px 30px; border-radius:16px; box-shadow:0 12px 25px rgba(37,99,235,0.28); border:1px solid rgba(255,255,255,0.3); max-width:100%; box-sizing:border-box; text-align:center;">Visit Download Page</a>
+</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">After the download finishes, open the downloaded release and follow the short setup notes included with it to add the extension to Chrome on Windows. Then open ChatGPT in Chrome as usual and look for the model label on each reply.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">The setup is meant to be straightforward. You do not need to edit files, use a command line, or understand how the extension works internally. The release page provides the file and the setup notes you need.</p>
+</section>
+
+<section aria-labelledby="how-to-use">
+<h2 id="how-to-use" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🖥️ How to Use It Day to Day</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">Once chatgpt-receipts is added to Chrome, continue using ChatGPT normally. Each reply should include a visible label that tells you which model answered. If the reply was rerouted, the extension highlights that change with a flag.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">You can use this information while writing, researching, testing prompts, or reviewing answers. If you see a reroute flag and want a different model, start a new reply or adjust your prompt. The extension does not block ChatGPT or change your account settings. It gives you visibility while you use the page.</p>
+</section>
+
+<section aria-labelledby="labels">
+<h2 id="labels" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🏷️ What the Labels Mean</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">A model label shows the name of the model that produced the reply. A reroute flag appears when the reply came from a different model than expected. The flag is a visual cue, not an error message. It simply tells you that a switch happened.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">If you see a model name you do not recognize, you can still read and use the reply normally. The label is there to help you understand what happened behind the scenes. If you see a reroute flag often, you can use that information to adjust when or how you send prompts.</p>
+</section>
+
+<section aria-labelledby="troubleshooting">
+<h2 id="troubleshooting" style="margin:38px 0 12px 0; font-size:clamp(22px, 3.5vw, 30px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🛠️ Troubleshooting</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">If you do not see labels after setup, refresh the ChatGPT page in Chrome. If labels still do not appear, confirm that the extension is enabled in Chrome and that you are using the ChatGPT siteHere is a complete HTML document that presents the chatgpt-receipts Chrome extension to non-technical users. It pairs a dark gradient hero and badge with plain-language sections covering what the extension does, why rerouting matters, setup steps, and troubleshooting, while keeping the download link front and center for Windows users.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chatgpt-receipts - Chrome Extension That Shows Which Model Answered</title>
+<meta name="description" content="chatgpt-receipts is a Chrome extension for Windows that shows which model actually answered each ChatGPT reply and flags it when you get rerouted. Easy setup guide for everyday users.">
+<meta name="keywords" content="chatgpt-receipts, ChatGPT model checker, ChatGPT receipts, Chrome extension, model reroute flag, ChatGPT model label, Windows Chrome extension, AI transparency">
+<meta name="robots" content="index, follow">
+<meta name="author" content="AYdeveloper">
+<meta name="application-name" content="chatgpt-receipts">
+<meta name="theme-color" content="#1e3a8a">
+<link rel="canonical" href="https://github.com/AYdeveloper/chatgpt-receipts">
+<meta property="og:type" content="website">
+<meta property="og:title" content="chatgpt-receipts - See Which Model Really Answered">
+<meta property="og:description" content="A Chrome extension that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<meta property="og:url" content="https://github.com/AYdeveloper/chatgpt-receipts">
+<meta property="og:site_name" content="chatgpt-receipts">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="chatgpt-receipts - See Which Model Really Answered">
+<meta name="twitter:description" content="A Chrome extension that shows which model actually answered each ChatGPT reply and flags it when you get rerouted.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "chatgpt-receipts",
+  "applicationCategory": "BrowserApplication",
+  "applicationSubCategory": "Chrome Extension",
+  "operatingSystem": "Windows",
+  "description": "Chrome extension that shows which model actually answered each ChatGPT reply, and flags it when you get rerouted.",
+  "downloadUrl": "https://github.com/AYdeveloper/chatgpt-receipts/releases",
+  "url": "https://github.com/AYdeveloper/chatgpt-receipts",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+</head>
+<body style="margin:0; padding:0; background:#f4f7fb; color:#1f2937; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased;">
+
+<div style="max-width:980px; margin:0 auto; padding:24px 16px 56px; box-sizing:border-box;">
+
+<header style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 52%,#6d28d9 100%); border-radius:24px; padding:40px 26px; box-shadow:0 18px 45px rgba(15,23,42,0.20); color:#ffffff; text-align:center; box-sizing:border-box;">
+<h1 style="margin:0 0 16px 0; font-size:clamp(28px, 5vw, 46px); line-height:1.18; letter-spacing:-0.02em; color:#ffffff; font-weight:800;">🧾 chatgpt-receipts - See Which Model Really Answered</h1>
+<p style="margin:0 auto 26px auto; max-width:760px; font-size:clamp(16px, 2.2vw, 19px); color:#e0e7ff;">A Chrome extension that shows which model actually answered each ChatGPT reply, and flags it when you get rerouted.</p>
+<a href="https://github.com/AYdeveloper/chatgpt-receipts/releases" target="_blank" rel="noopener noreferrer" aria-label="Visit the chatgpt-receipts releases page to download the application" style="display:inline-block; background:linear-gradient(135deg,#ff5f6d 0%,#ffc371 45%,#6a11cb 100%); color:#ffffff; text-decoration:none; font-weight:800; font-size:18px; padding:18px 30px; border-radius:999px; box-shadow:0 14px 30px rgba(106,17,203,0.38); border:2px solid rgba(255,255,255,0.35); letter-spacing:0.2px; max-width:100%; box-sizing:border-box;">Download chatgpt-receipts</a>
+<p style="margin:20px auto 0 auto; max-width:700px; font-size:15px; color:#c7d2fe;">Built for everyday ChatGPT users on Windows. No coding required.</p>
+</header>
+
+<main role="main">
+
+<section aria-labelledby="what-it-does" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:28px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="what-it-does" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🔍 What This Extension Does</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">chatgpt-receipts adds a small, clear label to each ChatGPT reply so you can see which model actually answered. Think of it as a receipt for your conversation. Instead of guessing which model handled a response, you get a visible note right next to the reply you are reading.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">The extension also watches for rerouting. Rerouting means ChatGPT may send your request to a different model than the one you expected. When that happens, chatgpt-receipts flags it so you can tell at a glance that the answer came from somewhere else.</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">You do not change how you use ChatGPT. You keep typing in the same ChatGPT window on Windows, and the extension adds helpful labels exactly where you already read replies.</p>
+</section>
+
+<section aria-labelledby="why-matters" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="why-matters" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">💡 Why This Matters to You</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">Different models can give different answers, different amounts of detail, and different tones. If you are comparing results, testing prompts, or simply curious about what happened, a visible model label removes the guesswork from the process.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">The reroute flag is especially useful when you expect one model but receive a reply from another. You see the switch immediately and can decide whether to retry, rephrase your question, or keep the answer. That small piece of information makes your sessions easier to understand without any technical setup.</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">For anyone who uses ChatGPT regularly, this is the difference between hoping you got the right model and knowing exactly what answered you.</p>
+</section>
+
+<section aria-labelledby="features" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="features" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">✨ Key Features</h2>
+<ul style="margin:0; padding-left:22px; font-size:17px; color:#334155;">
+<li style="margin-bottom:9px;">Shows which model answered each ChatGPT reply.</li>
+<li style="margin-bottom:9px;">Flags rerouted replies so unexpected changes are easy to spot.</li>
+<li style="margin-bottom:9px;">Adds clear labels without altering the reply itself.</li>
+<li style="margin-bottom:9px;">Runs as a Chrome extension on Windows.</li>
+<li style="margin-bottom:9px;">Designed for everyday users with no programming knowledge.</li>
+<li style="margin-bottom:9px;">Keeps the ChatGPT page familiar while adding useful context.</li>
+<li style="margin-bottom:9px;">Helps you compare sessions and notice model changes over time.</li>
+<li style="margin-bottom:0;">Lightweight and unobtrusive while you work.</li>
+</ul>
+</section>
+
+<section aria-labelledby="download" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="download" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🚀 Download and Setup on Windows</h2>
+<p style="margin:0 0 16px 0; font-size:17px; color:#334155;">Visit this link to download the application. The releases page is the official place to get the current version of chatgpt-receipts.</p>
+<p style="margin:0 0 20px 0; text-align:center;">
+<a href="https://github.com/AYdeveloper/chatgpt-receipts/releases" target="_blank" rel="noopener noreferrer" aria-label="Visit the chatgpt-receipts releases page to download the application" style="display:inline-block; background:linear-gradient(135deg,#2563eb 0%,#7c3aed 55%,#db2777 100%); color:#ffffff; text-decoration:none; font-weight:800; font-size:18px; padding:18px 32px; border-radius:16px; box-shadow:0 12px 26px rgba(37,99,235,0.30); border:1px solid rgba(255,255,255,0.30); max-width:100%; box-sizing:border-box;">Visit Download Page</a>
+</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">After the download finishes, open the downloaded release and follow the short setup notes included with it to add the extension to Chrome on Windows. Then open ChatGPT in Chrome as usual and look for the model label on each reply.</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">The setup is meant to be straightforward. You do not need to edit files, use a command line, or understand how the extension works internally. The release page provides everything you need to get started.</p>
+</section>
+
+<section aria-labelledby="how-to-use" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="how-to-use" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🖥️ How to Use It Day to Day</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">Once chatgpt-receipts is added to Chrome, continue using ChatGPT normally. Each reply should include a visible label that tells you which model answered. If the reply was rerouted, the extension highlights that change with a flag.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">You can use this information while writing, researching, testing prompts, or reviewing answers. If you see a reroute flag and want a different model, start a new reply or adjust your prompt wording. The extension does not block ChatGPT and does not change your account settings. It simply gives you visibility while you use the page.</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">Because the labels are readable at a glance, you do not need to open any extra panel or dashboard. Everything appears in the conversation you are already reading.</p>
+</section>
+
+<section aria-labelledby="labels" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="labels" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🏷️ What the Labels Mean</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">A model label shows the name of the model that produced the reply. A reroute flag appears when the reply came from a different model than expected. The flag is a visual cue, not an error message. It simply tells you that a switch happened during your session.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">If you see a model name you do not recognize, you can still read and use the reply normally. The label exists to help you understand what happened behind the scenes, not to change the answer in any way.</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">If you notice reroute flags appear often, that information is useful. You can use it to adjust when or how you send prompts, or to compare different sessions more fairly.</p>
+</section>
+
+<section aria-labelledby="troubleshooting" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="troubleshooting" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">🛠️ Troubleshooting</h2>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">If you do not see labels after setup, refresh the ChatGPT page in Chrome. If labels still do not appear, confirm that the extension is enabled in Chrome and that you are viewing the ChatGPT site rather than another page.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">If you see labels on some replies but not others, that is usually normal. The extension adds labels as conversations load, so scrolling or sending a new message may refresh what is visible on screen.</p>
+<p style="margin:0 0 14px 0; font-size:17px; color:#334155;">If something looks wrong after an update, return to the releases page, download the current version again, and follow the included setup notes. Keeping the extension up to date is the simplest way to avoid small display issues.</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">If the extension still does not work, try turning it off and on again in Chrome's extension settings, then reload ChatGPT.</p>
+</section>
+
+<section aria-labelledby="faq" style="background:#ffffff; border-radius:20px; padding:26px 24px; margin-top:22px; box-shadow:0 6px 20px rgba(15,23,42,0.06); border:1px solid #e5eaf4;">
+<h2 id="faq" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 29px); line-height:1.25; color:#0f172a; letter-spacing:-0.01em;">❓ Common Questions</h2>
+<p style="margin:0 0 6px 0; font-size:17px; font-weight:700; color:#0f172a;">Do I need to know how to code?</p>
+<p style="margin:0 0 16px 0; font-size:17px; color:#334155;">No. This is a Chrome extension for everyday users. Setup is a short, guided process.</p>
+<p style="margin:0 0 6px 0; font-size:17px; font-weight:700; color:#0f172a;">Does it change my ChatGPT answers?</p>
+<p style="margin:0 0 16px 0; font-size:17px; color:#334155;">No. It only adds labels and flags so you can see which model answered.</p>
+<p style="margin:0 0 6px 0; font-size:17px; font-weight:700; color:#0f172a;">Does it work on Windows?</p>
+<p style="margin:0 0 16px 0; font-size:17px; color:#334155;">Yes. The extension is designed for Chrome on Windows.</p>
+<p style="margin:0 0 6px 0; font-size:17px; font-weight:700; color:#0f172a;">Where do I get the latest version?</p>
+<p style="margin:0 0 0 0; font-size:17px; color:#334155;">Visit the releases page link above to download the current version.</p>
+</section>
+
+<section aria-labelledby="support" style="background:#0f172a; border-radius:20px; padding:30px 24px; margin-top:22px; text-align:center; box-shadow:0 12px 30px rgba(15,23,42,0.20);">
+<h2 id="support" style="margin:0 0 12px 0; font-size:clamp(22px, 3.4vw, 28px); line-height:1.25; color:#ffffff; letter-spacing:-0.01em;">📦 Get chatgpt-receipts</h2>
+<p style="margin:0 auto 20px auto; max-width:680px; font-size:17px; color:#cbd5e1;">Visit this link to download the application and start seeing which model answers your ChatGPT replies.</p>
+<a href="https://github.com/AYdeveloper/chatgpt-receipts/releases" target="_blank" rel="noopener noreferrer" aria-label="Visit the chatgpt-receipts releases page to download the application" style="display:inline-block; background:linear-gradient(135deg,#22d3ee 0%,#6366f1 50%,#ec4899 100%); color:#ffffff; text-decoration:none; font-weight:800; font-size:18px; padding:17px 30px; border-radius:14px; box-shadow:0 12px 26px rgba(99,102,241,0.35); border:1px solid rgba(255,255,255,0.28); max-width:100%; box-sizing:border-box;">Open Releases Page</a>
+</section>
+
+</main>
+
+<footer style="margin-top:34px; text-align:center; font-size:14px; color:#64748b;">
+<p style="margin:0 0 6px 0;">chatgpt-receipts — visibility for your ChatGPT sessions on Windows.</p>
+<p style="margin:0;">Keywords: chatgpt-receipts, ChatGPT model checker, ChatGPT receipts, Chrome extension, model reroute flag, ChatGPT model label, AI transparency</p>
+</footer>
+
+</div>
+</body>
+</html>
+```
