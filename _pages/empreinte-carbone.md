@@ -3,6 +3,7 @@ title: "Empreinte carbone de mes recherches"
 permalink: "/empreinte-carbone/"
 layout: "single"
 author_profile: true
+published: false
 ---
 
 Je suis avec cette page les émissions liées à mon travail de recherche : le calcul (entraînement et inférence de modèles) et les déplacements en conférence. Les chiffres sont en kg CO₂e et mis à jour au fil de l’eau.
