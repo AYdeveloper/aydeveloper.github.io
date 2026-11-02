@@ -1,0 +1,38 @@
+# kg_co2e : à remplir (laisser vide si pas encore calculé)
+- date: "2026-01"
+  event: "Assises de génétique, Cannes"
+  from_to: ""
+  mode: ""
+  km:
+  kg_co2e:
+- date: "2025-08"
+  event: "MedInfo 2025, Taipei"
+  from_to: ""
+  mode: ""
+  km:
+  kg_co2e:
+- date: "2025-02"
+  event: "Séminaire ED 393, Saint-Malo"
+  from_to: ""
+  mode: ""
+  km:
+  kg_co2e:
+- date: "2024-10"
+  event: "MASHS 2024, Paris"
+  from_to: ""
+  mode: ""
+  km:
+  kg_co2e:
+- date: "2024-08"
+  event: "MIE 2024, Athènes"
+  from_to: ""
+  mode: ""
+  km:
+  kg_co2e:
+- date: "2024-02"
+  event: "Séminaire ED 393, Saint-Malo"
+  from_to: ""
+  mode: ""
+  km:
+  kg_co2e:
+
