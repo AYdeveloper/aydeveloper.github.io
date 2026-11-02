@@ -1,11 +1,11 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "Conférences"
+  - title: "Conférences/Talks"
     url: /talks/
-  - title: "Enseignement"
+  - title: "Enseignement/teaching"
     url: /teaching/
-  - title: "Empreinte carbone"
-    url: /empreinte-carbone/
-  - title: "CV"
+  #- title: "Empreinte carbone"
+    #url: /empreinte-carbone/
+  - title: "CV/resume"
     url: /cv/
