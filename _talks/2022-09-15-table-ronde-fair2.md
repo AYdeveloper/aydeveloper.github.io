@@ -4,7 +4,7 @@ collection: "talks"
 type: "Table ronde"
 permalink: "/talks/2022-09-15-table-ronde-fair2"
 venue: "Institut Imagine"
-date: 2022-09-15
+date: 2022-09-30
 location: "Paris, France"
 share: false
 ---
