@@ -4,7 +4,7 @@ collection: "teaching"
 type: "Travaux dirigés"
 permalink: "/teaching/fondements-maths"
 venue: "Université Paris 1 Panthéon-Sorbonne"
-date: 2022-09-01
+date: 2022-2025
 location: "Paris, France"
 ---
 
